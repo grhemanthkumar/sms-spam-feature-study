@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local row-level outputs contain original SMS text.
+results/out_of_fold_predictions.csv
+results/misclassified_messages.csv
+
+# Python/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
